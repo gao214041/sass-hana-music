@@ -29,4 +29,8 @@
     &__title {
         @include v.title-icon( url(../imagas/plofile.png));
     }
+
+    &__text{
+        margin-top: 1em;
+    }
 }
