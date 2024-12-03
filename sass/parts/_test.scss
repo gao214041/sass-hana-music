@@ -13,9 +13,20 @@
         background: v.$c-gray-1;
         text-align: center;
         margin-bottom: 20px;
-        font-size: v.rem(10);
+        font-size: v.rem(30);
     }
 
+    &__imgBox {
+        text-align: center;
+    }
 
 }
 
+/*plofile*/
+.plofile {
+    margin-top: 50px;
+
+    &__title {
+        @include v.title-icon( url(../imagas/plofile.png));
+    }
+}

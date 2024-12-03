@@ -19,3 +19,12 @@ $pc: 769px;
     @content;
   }
 }
+
+//mixin タイトルアイコン設定
+@mixin title-icon($bgURL){
+  background-image:$bgURL;
+  background-repeat: no-repeat;
+  background-position: 0 4px ;
+  padding-left: 25px;
+
+}
